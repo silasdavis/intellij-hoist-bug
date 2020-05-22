@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "name": "test-proj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "reinstall": "yarn install --force"
+  },
+  "workspaces": {
+    "packages": [
+      "pkg/sub"
+    ],
+    "nohoist": [
+      "**/@types/mocha"
+    ]
+  }
+}
