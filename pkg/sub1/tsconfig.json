@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "module": "CommonJS",
+    "allowJs": false,
+    "declaration": true,
+    "preserveSymlinks": true,
+    "inlineSources": true,
+    "sourceMap": true
+  },
+  "exclude": [
+    "**/*.test.ts"
+  ]
+}
